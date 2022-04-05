@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rjtce", "rjtce\rjtce.csproj", "{8F690B92-B793-4C8B-95BE-F8488FD88602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rjtquery", "rjtquery\rjtquery.csproj", "{A74345E3-A7C5-47C2-9A16-15AD6B244DE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F690B92-B793-4C8B-95BE-F8488FD88602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F690B92-B793-4C8B-95BE-F8488FD88602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F690B92-B793-4C8B-95BE-F8488FD88602}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8F690B92-B793-4C8B-95BE-F8488FD88602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F690B92-B793-4C8B-95BE-F8488FD88602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F690B92-B793-4C8B-95BE-F8488FD88602}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A74345E3-A7C5-47C2-9A16-15AD6B244DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74345E3-A7C5-47C2-9A16-15AD6B244DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74345E3-A7C5-47C2-9A16-15AD6B244DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74345E3-A7C5-47C2-9A16-15AD6B244DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

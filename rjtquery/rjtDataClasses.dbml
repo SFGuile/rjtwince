@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="rjt" Class="rjtDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=rjt;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="rjtConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ce_word" Member="ce_word">
+    <Type Name="ce_word">
+      <Column Name="user_code" Type="System.String" DbType="Char(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="user_name" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="user_pass" Type="System.String" DbType="Char(32)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.product" Member="product">
+    <Type Name="product">
+      <Column Name="prod_no" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="prod_name" Type="System.String" DbType="Char(50) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_size" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="monad" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Column Name="box_num" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="dep_pos" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="ware_no" Type="System.String" DbType="Char(3) NOT NULL" CanBeNull="false" />
+      <Column Name="recipe" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="sell_stop" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="retail_price" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="std_price" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="Cuntry_Price" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="corp_price" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="buy_price" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="dep_no" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="dep_price" Type="System.Decimal" DbType="Decimal(12,6)" CanBeNull="true" />
+      <Column Name="limit_num" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="up_num" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="per_memo" Type="System.String" DbType="Char(18)" CanBeNull="true" />
+      <Column Name="limit_price" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="prod_memo" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Column Name="last_add" Type="System.String" DbType="Char(12) NOT NULL" CanBeNull="false" />
+      <Column Name="std_per" Type="System.Decimal" DbType="Decimal(8,3)" CanBeNull="true" />
+      <Column Name="prod_dx" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="prod_price_a" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="prod_price_b" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="prod_price_c" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="price_type" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Column Name="prod_price_d" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="prod_price_e" Type="System.Decimal" DbType="Decimal(8,2) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_made" Type="System.String" DbType="Char(64)" CanBeNull="true" />
+      <Column Name="prod_label" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="prod_pzwh" Type="System.String" DbType="Char(64)" CanBeNull="true" />
+      <Column Name="box_midnum" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="bar_code" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="avail_length" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="prod_otc" Type="System.String" DbType="VarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="yhbz" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="pzjj" Type="System.Decimal" DbType="Decimal(8,2) NOT NULL" CanBeNull="false" />
+      <Column Name="kssbz" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ps_pc" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ps_xh" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="retail_price1" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="retail_price2" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="cli_up_num" Type="System.Decimal" DbType="Decimal(9,3)" CanBeNull="true" />
+      <Column Name="hdsj" Type="System.String" DbType="VarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="hdfa" Type="System.String" DbType="VarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_no_tmp" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="prod_no_old" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="prod_no_new" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="lzbz" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="com_jc" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_pre" Type="System.String" DbType="Char(6)" CanBeNull="true" />
+      <Column Name="prod_name2" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Column Name="inv_lx" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="zp_beg_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="zp_end_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="zp_memo" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="prod_flow" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="sjc_num" Type="System.Decimal" DbType="Decimal(9,3) NOT NULL" CanBeNull="false" />
+      <Column Name="sjc_num_up" Type="System.Decimal" DbType="Decimal(9,3) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_price_db" Type="System.Decimal" DbType="Decimal(9,2)" CanBeNull="true" />
+      <Column Name="ys_bl" Type="System.Decimal" DbType="Decimal(5,2) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_price_bh" Type="System.Decimal" DbType="Decimal(8,2) NOT NULL" CanBeNull="false" />
+      <Column Name="upd_time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="upd_price_time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="bh_pl" Type="System.Decimal" DbType="Decimal(9,3) NOT NULL" CanBeNull="false" />
+      <Column Name="sell_limit" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="pzwh_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="prod_bz" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="zcz_availdate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="jkpw" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="fl_price" Type="System.Decimal" DbType="Decimal(8,2) NOT NULL" CanBeNull="false" />
+      <Column Name="zyps_bm" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_area_no" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="storage_condition" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_price_4" Type="System.Decimal" DbType="Decimal(8,2) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_price_5" Type="System.Decimal" DbType="Decimal(8,2) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_price_6" Type="System.Decimal" DbType="Decimal(8,2) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_area_gys" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_gfs" Type="System.Decimal" DbType="Decimal(8,2) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_xkzh" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_yyzzh" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_gmpzh" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_rzsjxq" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_xpmsqk" Type="System.String" DbType="VarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_sqly" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_cgkyj" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_zgkyj" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_zlfzr" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_sdkhr" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_kcjl" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="prod_wssh" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="all_permmit" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="prod_type_no" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Association Name="product_prod_dep" Member="prod_dep" ThisKey="prod_no" OtherKey="prod_no" Type="prod_dep" />
+      <Association Name="product_prod_dep_zjc" Member="prod_dep_zjc" ThisKey="prod_no" OtherKey="prod_no" Type="prod_dep_zjc" />
+      <Association Name="Ware_House_product" Member="Ware_House" ThisKey="ware_no" OtherKey="Ware_No" Type="Ware_House" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.prod_dep" Member="prod_dep">
+    <Type Name="prod_dep">
+      <Column Name="prod_no" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="prod_add" Type="System.String" DbType="Char(12) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="batch_no" Type="System.String" DbType="Char(12) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="lest_num" Type="System.Decimal" DbType="Decimal(9,3) NOT NULL" CanBeNull="false" />
+      <Column Name="Box_Num" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="avail_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="product_prod_dep" Member="product" ThisKey="prod_no" OtherKey="prod_no" Type="product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ware_House" Member="Ware_House">
+    <Type Name="Ware_House">
+      <Column Name="Ware_No" Type="System.String" DbType="Char(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ware_Name" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="Floor_No" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="group_no" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Association Name="Ware_House_product" Member="product" ThisKey="Ware_No" OtherKey="ware_no" Type="product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.prod_dep_zjc" Member="prod_dep_zjc">
+    <Type Name="prod_dep_zjc">
+      <Column Name="prod_no" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="prod_add" Type="System.String" DbType="Char(12) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="batch_no" Type="System.String" DbType="Char(12) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="lest_num" Type="System.Decimal" DbType="Decimal(9,3) NOT NULL" CanBeNull="false" />
+      <Column Name="Box_Num" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="avail_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="product_prod_dep_zjc" Member="product" ThisKey="prod_no" OtherKey="prod_no" Type="product" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,12 @@
+E:\csharptestnew\rjtce\rjtce\bin\Debug\rjtce.exe
+E:\csharptestnew\rjtce\rjtce\bin\Debug\rjtce.pdb
+E:\csharptestnew\rjtce\rjtce\obj\Debug\ResolveAssemblyReference.cache
+E:\csharptestnew\rjtce\rjtce\obj\Debug\rjtce.loginform.resources
+E:\csharptestnew\rjtce\rjtce\obj\Debug\rjtce.MainFormol.resources
+E:\csharptestnew\rjtce\rjtce\obj\Debug\rjtce.Properties.Resources.resources
+E:\csharptestnew\rjtce\rjtce\obj\Debug\rjtce.queryolform.resources
+E:\csharptestnew\rjtce\rjtce\obj\Debug\rjtce.resultformol.resources
+E:\csharptestnew\rjtce\rjtce\obj\Debug\rjtce.csproj.GenerateResource.Cache
+E:\csharptestnew\rjtce\rjtce\obj\Debug\rjtce.exe
+E:\csharptestnew\rjtce\rjtce\obj\Debug\rjtce.pdb
+E:\csharptestnew\rjtce\rjtce\bin\Debug\Device.dll

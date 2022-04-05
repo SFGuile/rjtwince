@@ -1,0 +1,5 @@
+E:\csharptestnew\rjtce\rjtquery\obj\Debug\ResolveAssemblyReference.cache
+E:\csharptestnew\rjtce\rjtquery\bin\rjtquery.dll
+E:\csharptestnew\rjtce\rjtquery\bin\rjtquery.pdb
+E:\csharptestnew\rjtce\rjtquery\obj\Debug\rjtquery.dll
+E:\csharptestnew\rjtce\rjtquery\obj\Debug\rjtquery.pdb
